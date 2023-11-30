@@ -1,9 +1,12 @@
-<div class="login.component">
-  <header class="header-login">
-    <h1>APP Confra - Sejam Bem Vindos!</h1>
-  </header>
-  <div class="login-input">
-    <input type="text" placeholder="Usuário">
-    <input type="password" placeholder="Senha">
-  </div>
+<div class="login">
+  <app-header></app-header>
+  <form class="form">
+    <h2>Login</h2>
+    <input type="email" name="email" placeholder="Digite o seu e-mail" required>
+    <input type="password" name="password" placeholder="Digite sua senha" required>
+
+    <button type="submit">Login</button>
+    <a href="#">Esqueceu a senha?</a>
+  </form>
+  <footer class="footer"></footer>
 </div>
