@@ -3,6 +3,14 @@ import { SignupComponent } from './components/signup/signup.component';
 import { LoginComponent } from './components/login/login.component';
 
 export const routes: Routes = [
-    { path: 'signup', component: SignupComponent },
-    { path: 'login', component: LoginComponent }
+    { 
+        path: '',
+        component: LoginComponent,
+        title: 'Home page'
+    },
+    { 
+        path: 'signup',
+        component: SignupComponent,
+        title: 'SignUp page'
+    }
 ];

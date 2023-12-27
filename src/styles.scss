@@ -15,10 +15,12 @@ body {
 
 input[type="password"],
 input[type="email"],
-input[type="text"] {
+input[type="text"],
+input[type="date"],
+input[type="number"] {
   border: none;
   outline: none;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 button {
